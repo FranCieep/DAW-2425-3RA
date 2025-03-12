@@ -1,6 +1,6 @@
 <div class="container bg-primary text-white p-5">
-  <h1>Hola, me llamo {{name}} esta es mi app </h1>
-  <h1> Name:{{name}}</h1>
+  <h1 class="h1">Hola, me llamo {{name}} esta es mi app </h1>
+  <h1 class="display-2"> Name:{{name}}</h1>
   <h1>Dir:{{direccion}}</h1>
   <h1>Edad:{{edad}}</h1>
   <h1>Altura:{{altura}}</h1>
@@ -10,8 +10,8 @@
   <h1>{{fruta.nombre}}</h1>
   <h1>{{fruta.precio}}</h1>
 
-  <button (click)="masUno()">Sumar Edad más 1</button>
-  <button (click)="cambairEstado()">Cambia Estado</button>
+  <button class="btn btn-warning" (click)="masUno()">Sumar Edad más 1</button>
+  <button class="btn btn-danger" (click)="cambairEstado()">Cambia Estado</button>
 
   @if (edad >=18) {
     <h1>Mayor de Edad</h1>
