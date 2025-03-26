@@ -1,0 +1,50 @@
+<div class="container d-flex justyfy-content-between">
+  <div class="card m-3" style="width: 25rem;">
+    <div class="card-body">
+      <h5 class="card-title display-3">{{persona.alias}}</h5>
+      <h6 class="card-subtitle display-6 mb-2 text-body-secondary">Nombre: {{persona.nombre}}</h6>
+      <ul>
+        <li>País: {{persona.pais}}</li>
+        <li>Peso KG: {{persona.pesoenKG}}</li>
+        <li>Rival: {{persona.rival}}</li>
+        <li>{{esdebut(persona)}}</li>
+        <li>Peleas Ganadas: {{persona.win}} </li>
+        <li>Peleas Perdidas: {{persona.lose}}</li>
+      </ul>
+      <p>esta es el jugador con ___________</p>
+    </div>
+  </div>
+
+  <div class="card m-3" style="width: 25rem;">
+    <div class="card-body">
+      <h5 class="card-title display-3">{{jugador.alias}}</h5>
+      <h6 class="card-subtitle display-6 mb-2 text-body-secondary">{{jugador.nombre}}</h6>
+      <ul>
+        <li>País: {{jugador.pais}}</li>
+        <li>Peso KG: {{jugador.pesoenKG}}</li>
+        <li>Rival: {{jugador.rival}}</li>
+        <li>{{esdebut(jugador)}}</li>
+        <li>Peleas Ganadas: {{jugador.win}} </li>
+        <li>Peleas Perdidas: {{jugador.lose}}</li>
+      </ul>
+      <p>esta es el jugador con ___________</p>
+    </div>
+  </div>
+
+  <div class="card m-3" style="width: 25rem;">
+    <div class="card-body">
+      <h5 class="card-title display-3">{{miParticipante.jugador.alias}}</h5>
+      <h6 class="card-subtitle display-6 mb-2 text-body-secondary">Nombre</h6>
+      <ul>
+        <li>País</li>
+        <li>Peso KG</li>
+        <li>Rival</li>
+        <li>Es Debut</li>
+        <li>Peleas Ganadas: </li>
+        <li>Peleas Perdidas: </li>
+      </ul>
+      <p>esta es el jugador con ___________</p>
+    </div>
+  </div>
+
+</div>
